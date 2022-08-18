@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="com.learning.listeners.ListenersClass"></listener>
+    </listeners>
+    <test parallel="methods" thread-count="1" verbose="2" preserve-order="true"
+          name="C:/Users/Sreej/IdeaProjects/MobileAutomationFramework/src/test/java/com/tmb/testcases/TapTests.java">
+        <classes>
+            <class name="com.learning.testcases.TapTests">
+                <methods>
+                    <include name="tapTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
